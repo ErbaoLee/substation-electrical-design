@@ -1,0 +1,27 @@
+name: substation-electrical-design
+version: 1.0.0
+description: 变电站电气设计技能。根据原始资料、负荷统计和电源条件，生成主接线、短路电流计算、设备选型与完整设计流程和报告
+author: yourname
+license: MIT
+keywords:
+  - 电力系统
+  - 变电站设计
+  - 短路电流计算
+  - 设备选型
+entrypoint: SKILL.md
+requirements:
+  - python
+  - pandas
+  - numpy
+  - pandapower
+triggers:
+  - pattern: "变电站设计"
+    type: keyword
+  - pattern: "变电站电气设计"
+    type: keyword
+  - pattern: "短路电流计算"
+    type: keyword
+  - pattern: "电力系统设计"
+    type: keyword
+skills: []
+parameters: []

@@ -1,0 +1,69 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting pandapower
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/7d/d0/048318e7fca4a67fdd89c57b2ac02bc8450ad6ca7a7f738968bec0844ae9/pandapower-3.4.0-py3-none-any.whl (5.5 MB)
+     ---------------------------------------- 5.5/5.5 MB 2.4 MB/s eta 0:00:00
+Collecting pandas~=2.3 (from pandapower)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/8e/59/712db1d7040520de7a4965df15b774348980e6df45c129b8c64d0dbe74ef/pandas-2.3.3-cp311-cp311-win_amd64.whl (11.3 MB)
+     ---------------------------------------- 11.3/11.3 MB 2.5 MB/s eta 0:00:00
+Collecting networkx~=3.4 (from pandapower)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/9e/c9/b2622292ea83fbb4ec318f5b9ab867d0a28ab43c5717bb85b0a5f6b3b0a4/networkx-3.6.1-py3-none-any.whl (2.1 MB)
+     ---------------------------------------- 2.1/2.1 MB 2.0 MB/s eta 0:00:00
+Collecting scipy<1.17 (from pandapower)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/f1/d0/22ec7036ba0b0a35bccb7f25ab407382ed34af0b111475eb301c16f8a2e5/scipy-1.16.3-cp311-cp311-win_amd64.whl (38.7 MB)
+     ---------------------------------------- 38.7/38.7 MB 2.8 MB/s eta 0:00:00
+Collecting numpy<2.4,>=1.26 (from pandapower)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/aa/44/9fe81ae1dcc29c531843852e2874080dc441338574ccc4306b39e2ff6e59/numpy-2.3.5-cp311-cp311-win_amd64.whl (13.1 MB)
+     ---------------------------------------- 13.1/13.1 MB 2.9 MB/s eta 0:00:00
+Collecting packaging~=25.0 (from pandapower)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/20/12/38679034af332785aac8774540895e234f4d07f7545804097de4b666afd8/packaging-25.0-py3-none-any.whl (66 kB)
+     ---------------------------------------- 66.5/66.5 kB 3.7 MB/s eta 0:00:00
+Collecting tqdm~=4.67 (from pandapower)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/16/e1/3079a9ff9b8e11b846c6ac5c8b5bfb7ff225eee721825310c91b3b50304f/tqdm-4.67.3-py3-none-any.whl (78 kB)
+     ---------------------------------------- 78.4/78.4 kB 2.2 MB/s eta 0:00:00
+Collecting deepdiff~=8.6 (from pandapower)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/2b/5f/c52bd1255db763d0cdcb7084d2e90c42119cb229302c56bdf1d0aa78abd2/deepdiff-8.6.2-py3-none-any.whl (91 kB)
+     ---------------------------------------- 92.0/92.0 kB 2.6 MB/s eta 0:00:00
+Collecting geojson~=3.2 (from pandapower)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/18/67/a7fa2d650602731c90e0a86279841b4586e14228199e8c09165ba4863e29/geojson-3.2.0-py3-none-any.whl (15 kB)
+Requirement already satisfied: typing_extensions~=4.9 in c:\users\li157\appdata\local\programs\python\python311\lib\site-packages (from pandapower) (4.15.0)
+Collecting pandera~=0.26.1 (from pandapower)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/db/3b/91622e08086a6be44d2c0f34947d94c5282b53d217003d3ba390ee2d174b/pandera-0.26.1-py3-none-any.whl (292 kB)
+     -------------------------------------- 292.9/292.9 kB 3.0 MB/s eta 0:00:00
+Collecting orderly-set<6,>=5.4.1 (from deepdiff~=8.6->pandapower)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/12/27/fb8d7338b4d551900fa3e580acbe7a0cf655d940e164cb5c00ec31961094/orderly_set-5.5.0-py3-none-any.whl (13 kB)
+Requirement already satisfied: python-dateutil>=2.8.2 in c:\users\li157\appdata\local\programs\python\python311\lib\site-packages (from pandas~=2.3->pandapower) (2.9.0.post0)
+Collecting pytz>=2020.1 (from pandas~=2.3->pandapower)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/10/99/781fe0c827be2742bcc775efefccb3b048a3a9c6ce9aec0cbf4a101677e5/pytz-2026.1.post1-py2.py3-none-any.whl (510 kB)
+     -------------------------------------- 510.5/510.5 kB 2.3 MB/s eta 0:00:00
+Requirement already satisfied: tzdata>=2022.7 in c:\users\li157\appdata\local\programs\python\python311\lib\site-packages (from pandas~=2.3->pandapower) (2025.3)
+Requirement already satisfied: pydantic in c:\users\li157\appdata\local\programs\python\python311\lib\site-packages (from pandera~=0.26.1->pandapower) (2.12.5)
+Collecting typeguard (from pandera~=0.26.1->pandapower)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/91/88/b55b3117287a8540b76dbdd87733808d4d01c8067a3b339408c250bb3600/typeguard-4.5.1-py3-none-any.whl (36 kB)
+Collecting typing_inspect>=0.6.0 (from pandera~=0.26.1->pandapower)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/65/f3/107a22063bf27bdccf2024833d3445f4eea42b2e598abfbd46f6a63b6cb0/typing_inspect-0.9.0-py3-none-any.whl (8.8 kB)
+Collecting colorama (from tqdm~=4.67->pandapower)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d1/d6/3965ed04c63042e047cb6a3e6ed1a63a35087b6a609aa3a15ed8ac56c221/colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+Requirement already satisfied: six>=1.5 in c:\users\li157\appdata\local\programs\python\python311\lib\site-packages (from python-dateutil>=2.8.2->pandas~=2.3->pandapower) (1.17.0)
+Collecting mypy-extensions>=0.3.0 (from typing_inspect>=0.6.0->pandera~=0.26.1->pandapower)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/79/7b/2c79738432f5c924bef5071f933bcc9efd0473bac3b4aa584a6f7c1c8df8/mypy_extensions-1.1.0-py3-none-any.whl (5.0 kB)
+Requirement already satisfied: annotated-types>=0.6.0 in c:\users\li157\appdata\local\programs\python\python311\lib\site-packages (from pydantic->pandera~=0.26.1->pandapower) (0.7.0)
+Requirement already satisfied: pydantic-core==2.41.5 in c:\users\li157\appdata\local\programs\python\python311\lib\site-packages (from pydantic->pandera~=0.26.1->pandapower) (2.41.5)
+Requirement already satisfied: typing-inspection>=0.4.2 in c:\users\li157\appdata\local\programs\python\python311\lib\site-packages (from pydantic->pandera~=0.26.1->pandapower) (0.4.2)
+Installing collected packages: pytz, typeguard, packaging, orderly-set, numpy, networkx, mypy-extensions, geojson, colorama, typing_inspect, tqdm, scipy, pandas, deepdiff, pandera, pandapower
+  Attempting uninstall: packaging
+    Found existing installation: packaging 26.0
+    Uninstalling packaging-26.0:
+      Successfully uninstalled packaging-26.0
+  Attempting uninstall: numpy
+    Found existing installation: numpy 2.4.3
+    Uninstalling numpy-2.4.3:
+      Successfully uninstalled numpy-2.4.3
+  Attempting uninstall: scipy
+    Found existing installation: scipy 1.17.1
+    Uninstalling scipy-1.17.1:
+      Successfully uninstalled scipy-1.17.1
+  Attempting uninstall: pandas
+    Found existing installation: pandas 3.0.1
+    Uninstalling pandas-3.0.1:
+      Successfully uninstalled pandas-3.0.1
+Successfully installed colorama-0.4.6 deepdiff-8.6.2 geojson-3.2.0 mypy-extensions-1.1.0 networkx-3.6.1 numpy-2.3.5 orderly-set-5.5.0 packaging-25.0 pandapower-3.4.0 pandas-2.3.3 pandera-0.26.1 pytz-2026.1.post1 scipy-1.16.3 tqdm-4.67.3 typeguard-4.5.1 typing_inspect-0.9.0
